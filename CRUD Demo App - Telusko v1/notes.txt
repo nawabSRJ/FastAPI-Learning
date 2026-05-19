@@ -1,0 +1,9 @@
+Run the server by command : 
+    uvicorn <server file>:<Fast API Object>
+    ex: uvicorn main:app 
+    Also do '--reload' if you want the server to show changes as you code
+    so, the command becomes : uvicorn main:app --reload
+
+Pydantic library helps with data validation
+
+To use preset swagger UI while API testing with Fast API just go to route '/docs' in your browser
